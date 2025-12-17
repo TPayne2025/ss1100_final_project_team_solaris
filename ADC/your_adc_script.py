@@ -1,21 +1,15 @@
 import rotate_me
+import calc_rotation as math_module #this is my student code module
 import time
 import math
+import os
 
-def calculate_rotation(current_orientation, target_orientation):
-    """
-    Calculates the required rotation to move from the current orientation
-    to the target orientation.
-    """
-    # YOUR CODE HERE
-    # This function should return a tuple of (x_correction, y_correction, z_correction)
-    return (0, 0, 0)
 
 def main():
     """
     Main function to run the attitude control simulation.
     """
-    target_orientation = (100, 200, 300)
+    target_orientation = (100, 200, 300)  # Desired target orientation
     tolerance = 0.1
     max_iterations = 20
 
@@ -31,9 +25,10 @@ def main():
         if error <= tolerance:
             print("Target orientation reached!")
             break
+        input_list = [current_orientation, target_orientation]
 
-        # Calculate the required corrections
-        corrections = calculate_rotation(current_orientation, target_orientation)
+        # Calculate the required corrections using imported student module
+        corrections = math_module.orientation_error(input_list)
         print(f"Applying corrections: {corrections}")
 
         # Apply the corrections using the rotate_me script
