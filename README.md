@@ -41,10 +41,25 @@ Once you have completed the tasks for all the individual subsystems, you can tac
 
 ## Questions for Writeup
 
-*Answer the following questions here, replacing this text with your group's responses.*
+LCDR Payne Response
+1. Overall collaboration was great. We split the tackled two subsystems in groups and divided up the remaining payload amongst ourselves.  Github writ large is not difficult to use, but slightly tedious to manage. As the manager, I should have spent more time understanding how to utilize this program.
+   
+2. From group discussion, likely the Command and Data Handling and the Payload sections.  From my perspective, the payload was challenging because it required correctly loading in files (CSV) and importing the correct libraries.  I spent several iterations of coding sessions trying to understand why Gemini attempted to force pandas as opposed to numby/matplotlib.
 
-1.  **What was your experience in collaborating?** Talk about what steps you used to ensure the inputs from group members worked - code testing, GitHub branch management, etc. - and how you divided up the workload for the project.
-2.  **What was the most challenging section, and why?** Feel free to provide more than one response if there is a difference of opinion in the group.
-3.  **If you employed Generative AI tools, how did you do so?** Discuss which tools you used, the prompts you utilized, how you ensured the results were valid, and how you integrated the code into your tasks.
-4.  **What other resources did you use to find solutions?** Online sites, books, references, etc.
-5.  **In what way could this project be improved for future quarters?**
+3. This is listed in the Payload code, but I used Gemini for the entire payload section.  I started by plugging in various lines of code by attempting to distill my requirements for visualization.  One negative of Google Colab was it would consistently prompt me to utilize pandas vice matplotlib/numby. Additionally there were several issues in terms of the code running completely through, but after several prompts it recognized specific lines of code were buried instead of being called out. 
+
+4. I did not use any other resources outside of googling to understand pandas versus numby.
+
+5. Overall, I think this was a great final coding project.  The integration with GitHub allowed us to see our teammates coding and understand how they arrived at that line of code.
+
+Capt Eshleman Reponse
+1. We tested our subsystems separately using our chosen IDEs and the test files provided. We each were responsible for 1 subsystem and then each pair had to complete one other subsystem together. We each forked our own branch off the main to work without jeopardizing each other's work. 
+
+2. (I'm a little biased but I think ADC was tough (maybe not the hardest idk) because for the check plus requirement, I had to create and import my code as it's own module as well as ensuring my 4 files were creating and pulling from the correct file path, feel free to put whatever though. 
+
+3. I used Gemini AI to help fix the file path in the ADC section, my prompt was "When I run the provided rotate_me.py script, it creates current_state.txt in the wrong folder, how do I correct this to ensure that current_state.txt will always be created in the same folder as rotate_me.py in order for my script to function correctly?"
+
+4. I asked Jeffrey and a little Gemini really and that's it. 
+
+5. This project could be improved for future quarters if other labs required use of Github so that students are more familiar with it prior to using it for the final project. 
+
