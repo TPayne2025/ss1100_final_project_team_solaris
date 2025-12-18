@@ -7,11 +7,42 @@ print(f"Your target temperature for this iteration is {target_temp}")
 ############ DO NOT EDIT ABOVE THIS LINE ##############################
 
 def process_temperature(input_temp, target_temp):
-    """Function that takes an input temperature and target temperature
-    applies a function to move it towards equilibrium.
-    It should return a single float as the output indicating 
-    the new, altered temperature"""
-    return 0 # Delete this line and insert your code starting here!
+    #Input below code into ChatGPT to see what was the issue when moving from our code to your code. We recieved a type error and the 
+    #loop was instantly changing the temperature which ruined the graphing of the plot. Added the Inc_Change to the New_Temp and returned it.
+    Desired_Change = input_temp - target_temp
+    Inc_Change = abs(Desired_Change*.25)
+    print (Inc_Change)
+    #New_Temp = input_temp 
+    New_Temp = input_temp + Inc_Change
+    return New_Temp
+
+    #if New_Temp > target_temp:
+    #    while New_Temp > target_temp:
+    #        New_Temp = New_Temp - Inc_Change
+    #        print (New_Temp)
+
+    #if New_Temp < target_temp:
+    #    while New_Temp < target_temp:
+    #        New_Temp = New_Temp + Inc_Change
+    #        print (New_Temp)
+
+    #if input_temp == target_temp:
+    #    print ("Current temp already at desired")
+
+    #else:
+    #    pass
+
+#print("You are now at your desired tempurature", target_temp)
+
+
+#"""Function that takes an input temperature and target temperatureapplies a function to move it towards equilibrium.
+    #It should return a single float as the output indicating 
+     #the new, altered temperature"""    
+    #"""Function that takes an input temperature and target temperature
+    #applies a function to move it towards equilibrium.
+    #It should return a single float as the output indicating 
+    #the new, altered temperature"""
+    #return 0 # Delete this line and insert your code starting here!
 
 
 ################### DO NOT EDIT BELOW THIS LINE ############################
