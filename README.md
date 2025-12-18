@@ -63,3 +63,15 @@ Capt Eshleman Reponse
 
 5. This project could be improved for future quarters if other labs required use of Github so that students are more familiar with it prior to using it for the final project. 
 
+LT Bellon's Reponse
+
+1. Collaboration was easy with the GITHUB Desktop for most of the team. The code I wrote would upload the changes easily but would not actually show up for any of the other members of the team. We were able to test our own code, then after uploading the changes everyone else was able to test and see if the changes had the same response.
+
+2. I did not really have too much difficulty with the Thermo and CDH section other than a couple of hiccups related to getting it to read the formatting right.
+
+3. I used ChatGPT to fix an error by pasting in the code and telling it what I was trying to do as I was not getting errors, but it was not doing what I wanted it to do. Copilot started to auto fill out lines of code near the end of working on the project.
+#Input the code below into ChatGPT to see what the issue was when moving from our code to your code. We received a type error, and the loop was instantly changing the temperature which ruined the graphing of the plot. Added the Inc_Change to the New_Temp and returned it. # Prompt to ChatGPT to separate check of CDM and numbers
+
+4. Only extra resource I looked at was the slides.
+
+5. NSTR
